@@ -70,11 +70,11 @@ header a {
 	color: rgba(0, 0, 0, 0.8);
 }
 aside {
-	background: #FAFAFA;
+	background: #d00505;
 }
 aside p {
 	border: 1px solid #bbb;
-	background: #ddd;
+	background:greenyellow;
 	color: black;
 }
 footer a {

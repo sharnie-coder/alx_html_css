@@ -1,10 +1,12 @@
 body {
-  background-color: lightblue;
+  background-color: green;
 }
 /* Body contains header, main, footer in a column */
 body {
   display: flex;
   flex-direction: column;
+   background-color: #c1064b;
+  font-family: Arial, sans-serif;
 }
 
 /* Main contains article + aside in a row */
@@ -24,4 +26,16 @@ article {
 aside {
   flex: 1;
   overflow-y: auto;
+}
+header {
+  background: #333333;
+  color: rgb(18, 41, 77);
+  padding: 15px;
+}
+
+footer {
+  background: #222;
+  color: #bb0a0a;
+  text-align: center;
+  padding: 10px;
 }
